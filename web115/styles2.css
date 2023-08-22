@@ -1,0 +1,41 @@
+header {
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	display: block;
+	box-sizing: border-box;
+   }
+h1 {
+	color: #4E2E54;
+}
+
+h2 {
+	color: #4E2E54;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-weight: ;
+} 
+body {
+	background-color: #f8f8f8;
+	display: block;
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+figure {
+	align-items: center;
+	margin: 60px;
+	margin: 5px;
+}
+
+.footerlinks {
+	text-align: center;
+
+}
+
+.footerp {
+	text-align: center;
+}
+      
+    
