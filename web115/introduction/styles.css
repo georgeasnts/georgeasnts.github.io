@@ -1,0 +1,30 @@
+header {
+	font-family: 'League Script', serif;
+	text-align: center;
+	display: block;
+	box-sizing: border-box;
+   }
+h1 {
+	color: #4E2E54;
+}
+body {
+	background-color: #f9f2ff;
+	display: block;
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+figure {
+	align-items: center;
+	margin: 60px;
+	margin: 5px;
+}
+
+footer {
+
+}
+ 
+      
+    
