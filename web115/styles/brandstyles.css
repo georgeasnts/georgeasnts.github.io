@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Lato:ital,wght@0,400;1,100;1,300&display=swap');
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: F4F5FF;
+	font-family: DM Sans, sans-serif;
+}
+
+body {
+ background-color: #F4F5FF;
+}
+
+h1, h2 {
+	text-align: center;
+	margin: 20px;
+	background-color: #F4F5FF;
+	color: #2F1C6A;
+}
+h2 {
+	color: #673DE6;
+}
+
+p {
+	text-align: center;
+	margin-left: 350px;
+	margin-right: 350px;
+	justify-content: left;
+}
+.footerlinks {
+	align-items: center;
+}
+
+hr {
+	color: #47294C;
+	margin: 20px;
+	margin-left: 300px;
+	margin-right: 300px;
+}
+
+.container {
+	margin: 20px;
+	border: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.container .color {
+	list-style: none;
+	margin: 13px;
+	padding: 7px;
+	text-align: center;
+	border-radius: 6px;
+	background: #fff;
+	box-shadow: 0 10px 20px rgba(52, 87, 220, 0.08);
+}
+
+.container .rect-boxF4F5FF {
+	width: 185px;
+	height: 188px;
+	border-radius: 5px;
+	background: #F4F5FF;
+}
+.container .rect-box673DE6 {
+	width: 185px;
+	height: 188px;
+	border-radius: 5px;
+	background: #673DE6;
+}
+
+.container .rect-box2F1C6A {
+	width: 185px;
+	height: 188px;
+	border-radius: 5px;
+	background: #2F1C6A;
+}
+
+.container .rect-box47294C {
+	width: 185px;
+	height: 188px;
+	border-radius: 5px;
+	background: #47294C;
+}
+.container .rect-box000000 {
+	width: 185px;
+	height: 188px;
+	border-radius: 5px;
+	background: #000000;
+}
+
+
+.color .hex-value {
+	display: block;
+	margin: 12px 0 8px;
+	font-size: 1.15rem;
+	font-weight: 500;
+}
