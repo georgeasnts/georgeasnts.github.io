@@ -29,13 +29,23 @@ figure {
 	margin: 5px;
 }
 
-.footerlinks {
+.footerLinks {
 	text-align: center;
-
-}
-
-.footerp {
+    }
+    
+    .link {
+	display: inline-block;
+	margin: 10px;
 	text-align: center;
-}
-      
+    }
+    
+    .link img {
+	vertical-align: middle;
+	margin-right: 5px;
+    }
+    
+    .link a {
+	display: block; /* Display links as blocks */
+	margin-top: 5px; /* Add space between image and link */
+    }
     
