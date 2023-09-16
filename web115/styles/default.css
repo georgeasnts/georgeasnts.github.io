@@ -3,7 +3,7 @@
 	margin-right: 10px;
 }
 header {
-	font-family: 'Lato', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 	text-align: center;
 	display: block;
 	box-sizing: border-box;
@@ -13,13 +13,18 @@ h1 {
 	font-size: 35px;
 	margin-top: 50px;
 	margin-bottom: 50px;
-	font-weight: normal;
+	font-weight: lighter;
+	font-family: 'Lato', sans-serif;
 }
 
 h2 {
 	color: #4E2E54;
+	font: inherit;
 	text-align: center;
+	line-height: 25px;
+	font-size: 25px;
 	font-family: 'Lato', sans-serif;
+
 }
 body {
 	background-color: #f8f8f8;
@@ -38,14 +43,53 @@ figure {
 
 nav {
 	align-content: center;
+	font-family: 'DM Sans', sans-serif;
+	font-weight: 100;
+	
 }
+li{
+	list-style: none;
+	line-height: 25px;
+	margin-left: 5%;
+	margin-right: 5%;
+	justify-content: center;
+}
+.welcomeParagraph {
+	color: #4E2E54;
+	font: inherit;
+	text-align: left;
+	line-height: 25px;
+	font-family: 'Lato', sans-serif;
+	margin-left: 150px;
+	margin-right: 250px;
+
+}
+.contractParagraph {
+	color: #4E2E54;
+	font: inherit;
+	text-align: left;
+	line-height: 25px;
+	font-family: 'Lato', sans-serif;
+	padding-top: 15px;
+	margin-left: 150px;
+	margin-right: 250px;
+}
+
+.introductionParagraph{
+	color: #4E2E54;
+	font: icon;
+	justify-content: left;
+	line-height: 50px;
+	
+}
+
 .crumbs {
 	background-color: #4E2E54;
 	display: flex;
 	justify-content: center; /* Center horizontally */
 	align-items: center; /* Center vertically */
-	height: 50px;
-	font-size: 30px;
+	height: 40px;
+	font-size: 20px;
 }
 
 .crumbsLinks a {
