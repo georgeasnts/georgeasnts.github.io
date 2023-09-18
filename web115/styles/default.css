@@ -54,6 +54,19 @@ li{
 	margin-right: 5%;
 	justify-content: center;
 }
+
+.introSelfie {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+.introSelfieCaption {
+	display: flex;
+	justify-content: center;
+}
+figcaption {
+	color: #b57ac0;
+}
 .welcomeParagraph {
 	color: #4E2E54;
 	font: inherit;
@@ -109,9 +122,12 @@ li{
 	align-items: center; /* Center vertically */
 	height: 50px;
 	font-size: 30px;
+	color: #4E2E54;
+	text-decoration: none;
 }
 
 .mainLinks a {
+	color: #4E2E54;
 	text-decoration: none;
 	font-size: medium;
 }
@@ -121,23 +137,13 @@ li{
 }
 
 .footerLinks {
+	color: #4E2E54;
+	display: flex;
+	justify-content: center;
 	text-align: center;
-    }
-    
-.link {
-	display: inline-block;
 	margin: 10px;
-	text-align: center;
-    }
-    
-    .link img {
-	vertical-align: middle;
-	margin-right: 5px;
-    }
-    
-    .link a {
-	display: block; /* Display links as blocks */
-	margin-top: 5px; /* Add space between image and link */
-	color: white;
-    }
-    
+	text-decoration: none;
+}
+.footerLinks a:hover {
+	color:#b57ac0;
+}
