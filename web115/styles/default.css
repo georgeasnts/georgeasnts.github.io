@@ -106,8 +106,7 @@ figcaption {
 	color: #4E2E54;
 	font: icon;
 	justify-content: left;
-	line-height: 50px;
-	
+	line-height: 50px;	
 }
 
 .crumbs {
@@ -136,12 +135,12 @@ figcaption {
 	align-items: center; /* Center vertically */
 	height: 50px;
 	font-size: 30px;
-	color: #4E2E54;
+	background-color: #4E2E54;;
 	text-decoration: none;
 }
 
 .mainLinks a {
-	color: #4E2E54;
+	color:#f8f8f8;
 	text-decoration: none;
 	font-size: medium;
 }
@@ -161,5 +160,6 @@ figcaption {
 }
 .footerLinks a:hover {
 	color: #4E2E54;
+	
 	
 }
