@@ -1,9 +1,10 @@
 *{
+	font-family: 'Lato', sans-serif;
 	margin-left: 10px;
 	margin-right: 10px;
 }
 header {
-	font-family: 'DM Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 	text-align: center;
 	display: block;
 	box-sizing: border-box;
@@ -43,12 +44,11 @@ figure {
 
 nav {
 	align-content: center;
-	font-family: 'DM Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-weight: 100;
 	
 }
 li{
-	list-style: none;
 	line-height: 25px;
 	margin-left: 5%;
 	margin-right: 5%;
@@ -60,14 +60,25 @@ li{
 
 .introSelfie {
 	display: flex;
-	justify-content: center;
-	align-content: center;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
 }
+
+.introSelfie img {
+	width: 15%; /* Adjust the width as needed */
+      }
+.introSelfie figcaption {
+	margin-top: 10px; /* Adjust the margin as needed */
+	color: #b57ac0; /* Adjust the color as needed */
+      }
 .introSelfieCaption {
 	display: flex;
 	justify-content: center;
 }
 figcaption {
+	display: flex;
+	justify-content: center;
 	color: #b57ac0;
 }
 .welcomeParagraph {
@@ -140,7 +151,7 @@ figcaption {
 }
 
 .footerLinks {
-	color: #4E2E54;
+	color:#b57ac0;
 	display: flex;
 	justify-content: center;
 	text-align: center;
@@ -148,5 +159,6 @@ figcaption {
 	text-decoration: none;
 }
 .footerLinks a:hover {
-	color:#b57ac0;
+	color: #4E2E54;
+	
 }
