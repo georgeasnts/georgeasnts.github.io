@@ -152,6 +152,7 @@ figcaption {
 
 .footerLinks {
 	color:#b57ac0;
+	font-family: 'Lato', sans-serif;
 	display: flex;
 	justify-content: center;
 	text-align: center;
