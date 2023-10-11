@@ -165,4 +165,6 @@ figcaption {
 }
 footer p {
 	text-align: center;
+	color: #4E2E54;
+	font-style: italic;
 }
