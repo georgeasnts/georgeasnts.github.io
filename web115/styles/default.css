@@ -17,19 +17,24 @@ nav {
 	padding-top: 20px;
 	font-size:22px;
    }
-nav a {
+a {
+	color:#4E2E54;
+	text-decoration: none;
+}
+header nav a {
 	color:#f8f8f8;
 	text-decoration: none;
    }
-body a {
-	color: black;
+footer nav a{
+	color: #f8f8f8;
+	text-decoration: none;
 }
 a:hover {
 	color:#b57ac0;
    }
 footer p {
 	text-align: center;
-	color: #4E2E54;
+	color: 
 	font-style: italic;
 }
 h1 {
