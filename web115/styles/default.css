@@ -21,22 +21,15 @@ a {
 	color:#4E2E54;
 	text-decoration: none;
 }
-header nav a {
+nav a {
 	color:#f8f8f8;
 	text-decoration: none;
    }
-footer nav a{
-	color: #f8f8f8;
-	text-decoration: none;
-}
+
 a:hover {
 	color:#b57ac0;
    }
-footer p {
-	text-align: center;
-	color: 
-	font-style: italic;
-}
+
 h1 {
 	color: #4E2E54;
 	font-size: 35px;
