@@ -3,8 +3,12 @@
 	margin-left: 10px;
 	margin-right: 10px;
 }
+body {
+	background-color: #f8f8f8;
+	display: block;
+	box-sizing: border-box;
+}
 header {
-	font-family: 'Lato', sans-serif;
 	text-align: center;
 	display: block;
 	box-sizing: border-box;
@@ -15,7 +19,6 @@ h1 {
 	margin-top: 50px;
 	margin-bottom: 50px;
 	font-weight: lighter;
-	font-family: 'Lato', sans-serif;
 }
 
 h2 {
@@ -24,14 +27,9 @@ h2 {
 	text-align: center;
 	line-height: 25px;
 	font-size: 25px;
-	font-family: 'Lato', sans-serif;
 
 }
-body {
-	background-color: #f8f8f8;
-	display: block;
-	box-sizing: border-box;
-}
+
 
 img {
 	max-width: 100%;
@@ -44,7 +42,6 @@ figure {
 
 nav {
 	align-content: center;
-	font-family: 'Lato', sans-serif;
 	font-weight: 100;
 	
 }
@@ -87,7 +84,6 @@ figcaption {
 	font: inherit;
 	text-align: left;
 	line-height: 25px;
-	font-family: 'Lato', sans-serif;
 	margin-left: 150px;
 	margin-right: 250px;
 
@@ -97,7 +93,6 @@ figcaption {
 	font: inherit;
 	text-align: left;
 	line-height: 25px;
-	font-family: 'Lato', sans-serif;
 	padding-top: 15px;
 	margin-left: 150px;
 	margin-right: 250px;
@@ -152,7 +147,6 @@ figcaption {
 
 .footerLinks {
 	color:#b57ac0;
-	font-family: 'Lato', sans-serif;
 	display: flex;
 	justify-content: center;
 	text-align: center;
