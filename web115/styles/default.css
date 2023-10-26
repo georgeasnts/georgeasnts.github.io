@@ -10,6 +10,10 @@ body {
 header, footer {
 	text-align: center;
    }
+main{
+	margin-left: 100px;
+	margin-right: 100px;
+   }
 nav {
 	background-color: #4E2E54;
 	word-spacing: 25px;
@@ -18,17 +22,21 @@ nav {
 	font-size:22px;
    }
 a {
-	color:#4E2E54;
+	
+	color:#b57ac0;
 	text-decoration: none;
 }
+a:hover {
+	color:#4E2E54;
+   }
 nav a {
 	color:#f8f8f8;
 	text-decoration: none;
    }
 
-a:hover {
+nav a:hover{
 	color:#b57ac0;
-   }
+}
 
 h1 {
 	color: #4E2E54;
@@ -45,14 +53,13 @@ h2 {
 }
 
 figure {
-	align-items: center; 	
+	text-align: center; 	
+}
+figcaption {
+	color: #4E2E54;
+	font-style: italic;
 }
 
-nav {
-	align-content: center;
-	font-weight: 100;
-	
-}
 li{
 	line-height: 25px;
 	margin-left: 5%;
@@ -60,11 +67,4 @@ li{
 	justify-content: center;
 }
 
-/* Here is the start of the CSS by page */
-/* CSS tags for home page */
 
-figcaption {
-	display: flex;
-	justify-content: center;
-	color: #b57ac0;
-}
