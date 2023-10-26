@@ -11,19 +11,20 @@ header {
 	display: block;
 	box-sizing: border-box;
    }
-    nav {
+nav {
 	background-color: #4E2E54;
 	word-spacing: 25px;
+	height: 40px;
    }
-   a {
+a {
 	color:#f8f8f8;
 	text-decoration: none;
 	font-size: medium;
    }
-   a:hover {
+a:hover {
 	color:#b57ac0;
    }
-   footer p {
+footer p {
 	text-align: center;
 	color: #4E2E54;
 	font-style: italic;
