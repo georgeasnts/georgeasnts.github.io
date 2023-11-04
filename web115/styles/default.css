@@ -45,7 +45,12 @@ h1 {
 	font-weight: lighter;
 	text-align: center;
 }
+header img{
+	background-color: whitesmoke;
+	border-radius: 45px;
+	display: block;
 
+}
 h2 {
 	color: #4E2E54;
 	font: inherit;
@@ -74,3 +79,16 @@ li li {
 	
 }
 
+fieldset{
+	background-image: url('https://wallsneedlove.com/cdn/shop/products/w0094_1s_Vintage-Floral-Wallpaper-for-Walls-Grace_Repeating-Pattern-Sample-1.jpg?v=1604086683');
+	width: fit-content;
+	height: 300px;
+	margin: auto;
+	margin-bottom: 30px;
+	border: none;
+}
+
+label{
+	display: block;
+	padding: 30px;
+}
