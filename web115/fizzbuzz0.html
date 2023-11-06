@@ -7,6 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
 
 <body>
 	<div data-include="components/header.html"></div>
@@ -16,21 +17,24 @@
 		<h2 id="greeting">Welcome to User Utopia</h2>
 		<fieldset>
 			<form>
-				<label for="first_name" id="first_name"> 
+				<legend>Enter your Fulll Name!</legend>
+				<label for="first_name">Name:
 					<input id="first_name" type="text" placeholder="Enter your First Name here:">
 				</label>
-				<label for="middle_initial" id="middle_initial"> 
+				<label for="middle_initial">Middle Initial: 
 					<input id="middle_initial" type="text" placeholder="Enter your Midlle Initial here:">
-				</label for="last_name" id="last_name">
-				<label> 
-					<input id="middle_initial" type="text" placeholder="Enter your Last Name here:">
 				</label>
-				<button type="Submit">Submit</button>
+				<label for="last_name">Last Name:
+					<input id="last_name" type="text" placeholder="Enter your Last Name here:">
+				</label>
+				<button type="Submit" id="submit">Submit</button> 
+				<button type="Reset" id="reset">Reset</button>
 			</form>
 		</fieldset>
 	</main>
 
 	<div data-include="components/footer.html"></div>
      	<script src="scripts/include.js"></script>
+	     <script src="scripts/fizzbuzz0.js"></script>
       </body>
 </html>
