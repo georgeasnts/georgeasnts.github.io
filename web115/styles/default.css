@@ -81,7 +81,7 @@ li li {
 
 fieldset{
 	background-color: #b57ac0;
-	width: fit-content;
+	width:fit-content;
 	height: 300px;
 	margin: auto;
 	margin-bottom: 30px;
@@ -89,12 +89,22 @@ fieldset{
 	color:#f8f8f8;
 	text-align: left;
 }
+
+legend{
+	display: block;
+	text-align: center;
+	margin: auto;
+	background-color:#4E2E54;
+	
+}
 #submit{
 	margin-left: 80px;
 	margin-right: 10px;
 	background-color: whitesmoke;
 	align-content: center;
-		
+}
+#reset{
+	background-color: whitesmoke;
 }
 
 #submit:hover, #reset:hover {
