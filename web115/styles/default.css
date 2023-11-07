@@ -87,14 +87,19 @@ fieldset{
 	margin-bottom: 30px;
 	border: none;
 	color:#f8f8f8;
-	text-align: center;
+	text-align: left;
 }
-button{
-	margin: 0 10px;
+#submit{
+	margin-left: 80px;
+	margin-right: 10px;
 	background-color: whitesmoke;
+	align-content: center;
+		
+}
 
-
-	
+#submit:hover, #reset:hover {
+	background-color: #4E2E54;
+	color: #f8f8f8;
 }
 
 
