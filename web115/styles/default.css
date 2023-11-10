@@ -11,6 +11,7 @@ body {
 }
 header, footer {
 	text-align: center;
+	margin-top: 5%;
    }
 main{
 	margin-left: 100px;
@@ -45,12 +46,16 @@ h1 {
 	font-weight: lighter;
 	text-align: center;
 }
-header img{
-	background-color: whitesmoke;
-	border-radius: 45px;
-	display: block;
 
+
+
+#headerImage{
+	color: whitesmoke;
+	border-radius: 45px;
+	float: left;
+	margin: -15px 10px 10px;
 }
+
 h2 {
 	color: #4E2E54;
 	font: inherit;
@@ -118,4 +123,25 @@ label{
 	display: block;
 	padding: 20px;
 	padding-left: 0;
+}
+
+#slogan {
+	color: #4E2E54;
+	font-size: 30px;
+	font-weight: lighter;
+	display: block;
+	text-align: center;
+	
+}
+
+
+h2 p{
+	display: block;
+	color: black;
+	font-size: 25px;
+	line-height: 30px;
+	padding-left: 20%;	
+	padding-right: 20%;
+	text-align: center;
+	
 }
