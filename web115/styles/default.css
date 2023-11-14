@@ -63,9 +63,6 @@ h2 p{
 	color: black;
 	font-size: 25px;
 	line-height: 35px;
-	padding-left: 20%;	
-	padding-right: 20%;
-	text-align: center;
 	
 }
 
@@ -135,7 +132,7 @@ legend{
 
 #slogan {
 	color: #771386;
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: lighter;
 	display: block;
 	text-align: center;
