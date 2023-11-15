@@ -23,6 +23,9 @@ document.getElementById('submit').addEventListener('click', function(event) {
     let newGreeting = `Welcome to User Utopia, ${fullName}!`;
 	//updates the greeting that appears on the page
     document.getElementById('greeting').textContent = newGreeting;
+    alert(`Welcome, ${fullName}!`);
+    prompt(`How high do you want to count, ${fullName}?`);
+
 });
 
 //adds an event listener to the reset button when clicked
