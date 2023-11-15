@@ -54,7 +54,7 @@ h1 {
 
 
 h2 {
-	color: #4E2E54;
+	color: #771386;
 	font: inherit;
 	text-align: center;
 	line-height: 25px;
@@ -135,25 +135,31 @@ legend{
 	font-size: 20px;
 	font-weight: lighter;
 	display: block;
-	text-align: center;
-	
+	text-align: center;	
 }
-#dot {
-	height: 50px;
-	width: 50px;
-	background-color: #bbb;
-	border-radius: 50%;
-	display: inline-block;
-	vertical-align: middle;
-	
-      }
 
 #colorPallete {
-	display: block;
 	text-align: center;
 }
 
 #colorPallete li {
 	display: inline-block;
 	margin: 20px 50px 20px 50px;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+		
 }
+
+#dot1{
+	
+	background-color: #4E2E54;
+      }
+
+#dot2 {
+	background-color: #771386;
+      }
+
+#dot3 {
+	background-color: #b57ac0;
+      }
