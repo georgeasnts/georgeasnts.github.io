@@ -1,13 +1,13 @@
 body {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Spectral', serif;;
 	line-height: 30px;
 	margin-left: 10px;
 	margin-right: 10px;
-	background-color: #f8f8f8;
+	background-color: #e0d4ca;
 	margin-left: 100px;
 	margin-right: 100px;
 	font-size: 125%;
-
+	color: #553d36;
 }
 header, footer {
 	
@@ -20,41 +20,38 @@ main{
 	margin-right: 100px;
    }
 nav {
-	background-color: #4E2E54;
+	background-color: #f5f5f5;
 	word-spacing: 25px;
 	height: 40px;
 	padding-top: 10px;
 	font-size:22px;
    }
 a {
-	color:#b57ac0;
+	color:#c68674;
 	text-decoration: none;
 }
 a:hover {
-	color:#4E2E54;
+	color:#8c7c75;
    }
 nav a {
-	color:#f8f8f8;
+	color:#c68674;
 	text-decoration: none;
    }
 
 nav a:hover{
-	color:#b57ac0;
+	color:#8c7c75;
 }
 
 h1 {
 	
-	color: #4E2E54;
+	color: #424242;
 	font-size: 35px;
 	font-weight: lighter;
 	text-align: center;
 }
 
-
-
-
 h2 {
-	color: #771386;
+	color: #7d8763;
 	font: inherit;
 	text-align: center;
 	line-height: 25px;
@@ -62,17 +59,38 @@ h2 {
 }
 h2 p{
 	display: block;
-	color: black;
+	color: #757575;
 	font-size: 25px;
 	line-height: 35px;
-	
+}
+
+
+    
+main section {
+	display: flex;
+	justify-content:space-evenly;
+	margin-bottom: 30px;;
+}
+    
+main article {
+	text-align: center;
+}
+    
+    
+main article h3, main article p {
+	font-family: 'Spectral', serif; 
+ }
+    
+main article:last-child h3, main article:last-child p {
+	font-family: 'Cormorant Garamond', serif; 
 }
 
 figure {
 	text-align: center; 	
 }
 figcaption {
-	color: #4E2E54;
+	font-family: 'Cormorant Garamond';
+	color: #553d36;
 	font-style: italic;
 }
 
@@ -89,13 +107,13 @@ li li {
 }
 
 fieldset{
-	background-color: #b57ac0;
+	background-color: #f5f5f5;
 	width:fit-content;
 	height: 300px;
 	margin: auto;
 	margin-bottom: 30px;
 	border: none;
-	color:#f8f8f8;
+	color:#424242;
 	text-align: left;
 }
 label{
@@ -107,7 +125,7 @@ legend{
 	display: block;
 	text-align: center;
 	margin: auto;
-	background-color:#4E2E54;
+	
 	
 }
 #headerImage{
@@ -117,49 +135,72 @@ legend{
 #submit{
 	margin-left: 80px;
 	margin-right: 10px;
-	background-color: #f8f8f8;
+	background-color: #C68674;
 	align-content: center;
 }
 #reset{
-	background-color: #f8f8f8;
+	background-color: #C68674;
 }
 
 #submit:hover, #reset:hover {
-	background-color: #4E2E54;
+	background-color: #8c7c75;
 	color: #f8f8f8;
 }
 
 
 #slogan {
-	color: #771386;
+	color: #7d8763;
 	font-size: 20px;
 	font-weight: lighter;
+	font-family:'Cormorant Garamond';
 	display: block;
 	text-align: center;	
 }
 
 #colorPallete {
 	text-align: center;
-}
-
-#colorPallete li {
+    }
+    
+    #colorPallete li {
 	display: inline-block;
-	margin: 20px 50px 20px 50px;
-	height: 150px;
-	width: 150px;
+	margin: 20px 20px;
+	height: 180px; 
+	width: 180px;  
 	border-radius: 50%;
-		
-}
-
-#dot1{
-	
-	background-color: #4E2E54;
-      }
-
-#dot2 {
-	background-color: #771386;
-      }
-
-#dot3 {
-	background-color: #b57ac0;
-      }
+	position: relative;
+	overflow: hidden;
+    }
+    
+    #colorPallete li span {
+	display: block;
+	height: 100%;
+	width: 100%;
+	background-color: inherit;
+    }
+    
+    #colorPallete li p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0;
+	color: #f8f8f8;
+	font-size: 15px;
+    }
+    
+    #dot1 {
+	background-color: #424242;
+    }
+    
+    #dot2 {
+	background-color: #7d8763;
+    }
+    
+    #dot3 {
+	background-color: #C68674;
+    }
+    
+    #dot4 {
+	background-color:#553D36;
+    }
+    
