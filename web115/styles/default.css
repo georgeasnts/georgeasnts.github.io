@@ -1,8 +1,7 @@
 body {
-	font-family: 'Spectral', serif;;
+	font-family: 'Spectral', serif;
 	line-height: 30px;
-	margin-left: 10px;
-	margin-right: 10px;
+	
 	background-color: #e0d4ca;
 	margin-left: 100px;
 	margin-right: 100px;
@@ -48,41 +47,30 @@ h1 {
 	font-size: 35px;
 	font-weight: lighter;
 	text-align: center;
+	padding: 20px;
 }
 
-h2 {
+h2, h3 {
 	color: #7d8763;
 	font: inherit;
 	text-align: center;
 	line-height: 25px;
 	font-size: 130%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+h3 {
+	color: #424242;
+	
+	font-size: 120%;
+	
 }
 h2 p{
 	display: block;
 	color: #757575;
 	font-size: 25px;
 	line-height: 35px;
-}
-
-
-    
-main section {
-	display: flex;
-	justify-content:space-evenly;
-	margin-bottom: 30px;;
-}
-    
-main article {
-	text-align: center;
-}
-    
-    
-main article h3, main article p {
-	font-family: 'Spectral', serif; 
- }
-    
-main article:last-child h3, main article:last-child p {
-	font-family: 'Cormorant Garamond', serif; 
 }
 
 figure {
@@ -161,7 +149,7 @@ legend{
 	text-align: center;
     }
     
-    #colorPallete li {
+ #colorPallete li {
 	display: inline-block;
 	margin: 20px 20px;
 	height: 180px; 
@@ -204,3 +192,28 @@ legend{
 	background-color:#553D36;
     }
     
+
+    #fontShowcase {
+	text-align: center; 
+	margin-right: 50px;
+    }
+    
+    #fontShowcase li {
+	display: inline-block; 
+	font-size: 25px; 
+	color: #553D36;
+	line-height: 50px;
+	
+    }
+
+    #fontShowcase li  p{
+	color: #553D36;
+	font-size: 20px;
+	line-height: 50px;
+	letter-spacing: 2px;
+	
+    }
+
+    #cormorantFont {
+	font-family:'Cormorant Garamond';
+    }
