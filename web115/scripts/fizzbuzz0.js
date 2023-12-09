@@ -24,12 +24,26 @@ document.getElementById('submit').addEventListener('click', function(event) {
 	//updates the greeting that appears on the page
     document.getElementById('greeting').textContent = newGreeting;
     alert(`Welcome, ${fullName}!`);
-    prompt(`How high do you want to count, ${fullName}?`);
+   
+    // Loop to output 125 lines related to the theme
+    let outputList = document.getElementById('outputList');
+    outputList.innerHTML = ''; // Clear previous content
+
+    for (let i = 0; i < 125; i++) {
+        let themeWord1 = "User";
+        let themeWord2 = "Utopia";
+        let line = `${themeWord1} ${themeWord2}`;
+
+        // Append a new list item directly to the ordered list
+        outputList.innerHTML += `<li>${line}</li>`;
+    }
 
 });
 
-//adds an event listener to the reset button when clicked
 document.getElementById('reset').addEventListener('click', function() {
-	//gets the greeting back to the original text
+    // Reset the greeting to the original text
     document.getElementById('greeting').textContent = originalGreeting;
+
+    // Clear the content of the ordered list
+    document.getElementById('outputList').innerHTML = '';
 });
