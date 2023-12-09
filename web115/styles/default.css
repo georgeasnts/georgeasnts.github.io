@@ -224,6 +224,7 @@ legend{
     }
     
     #outputList li {
+	list-style: none;
 	margin: 0; /* Remove default margin to ensure proper alignment */
 	padding: 5px;
     }
