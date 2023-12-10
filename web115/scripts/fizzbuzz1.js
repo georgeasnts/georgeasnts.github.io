@@ -8,7 +8,7 @@ document.getElementById('submit').addEventListener('click', function(event) {
     let middleName = document.getElementById('middle_initial').value;
     let lastName = document.getElementById('last_name').value;
 
-    //capitalizes the first letter of 
+    //capitalizes the first letter  
     function capitalizeFirstLetter(string) {
         return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
     }
@@ -30,7 +30,7 @@ document.getElementById('submit').addEventListener('click', function(event) {
     let outputList = document.getElementById('outputList');
     outputList.innerHTML = '';
 
-    // Loop to output 140 lines with the same word (in this case, "Aesthetic")
+    // Loop to output 140 lines 
     let themeWord = "Aesthetic";
     for (let i = 1; i <= 140; i++) {
         let themeWord = '';
@@ -46,7 +46,7 @@ document.getElementById('submit').addEventListener('click', function(event) {
 
         let line = `${i}. ${themeWord}`;
         
-        // Create a new list item and append to the ordered list
+        // New list item
         let listItem = document.createElement('li');
         listItem.textContent = line;
         outputList.appendChild(listItem);
@@ -54,9 +54,9 @@ document.getElementById('submit').addEventListener('click', function(event) {
 });
 
 document.getElementById('reset').addEventListener('click', function() {
-    // Reset the greeting to the original text
+    // Reset the greeting 
     document.getElementById('greeting').textContent = originalGreeting;
 
-    // Clear the content of the ordered list
+    // Clear list content
     document.getElementById('outputList').innerHTML = '';
 });

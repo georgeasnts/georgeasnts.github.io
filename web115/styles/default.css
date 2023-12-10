@@ -133,7 +133,7 @@ legend{
     cursor: pointer;
     border-radius: 5px;
     transition: background-color 0.3s ease;
-    font-family: 'Spectral', serif; /* Add this line to use the theme font */
+    font-family: 'Spectral', serif; 
 }
 
 #submit:hover,
@@ -225,13 +225,13 @@ legend{
 	font-family:'Cormorant Garamond';
     }
     #outputList {
-	columns: 4; /* Adjust the number of columns as needed */
-	list-style-type: decimal; /* Use decimal numbers as the list item marker */
-	padding: 0; /* Remove default padding to ensure proper alignment */
+	columns: 4; 
+	list-style-type: decimal; 
+	padding: 0; 
     }
     
     #outputList li {
 	list-style: none;
-	margin: 0; /* Remove default margin to ensure proper alignment */
+	margin: 0; 
 	padding: 5px;
     }
